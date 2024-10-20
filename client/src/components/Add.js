@@ -26,7 +26,7 @@ const Add = () => {
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
             >
-                <Box  width={400} height={280} bgcolor={"white"} borderRadius={5} p={2} sx={{width:{xs:320}}}> 
+                <Box  height={280} bgcolor={"white"} borderRadius={5} p={2} sx={{width:{xs:320 , md:500}}}> 
                     <Typography id="modal-modal-title" variant="h6" component="h2">
                         Text in a modal
                     </Typography>
